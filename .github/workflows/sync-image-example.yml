@@ -21,8 +21,8 @@ jobs:
       uses: docker/login-action@v2.2.0
       with:
         registry: registry.cn-hangzhou.aliyuncs.com
-        username: 阿里云账号
-        password: 固定访问密码
+        username: jaridli
+        password: jaridli@163.com
         logout: false
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
