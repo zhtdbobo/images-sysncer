@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/soulteary/flare:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/flare:latest
+         skopeo copy docker://docker.io/lyswhut/lx-music-sync-server:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/lx-music-sync-server:latest
