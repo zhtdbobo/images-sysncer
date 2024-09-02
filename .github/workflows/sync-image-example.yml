@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/minio/minio docker://registry.cn-hangzhou.aliyuncs.com/jaridli/minio/minio
+         skopeo copy docker://ghcr.io/browserless/chromium:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/chromium:latest
