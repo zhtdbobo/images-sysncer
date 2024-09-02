@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/postgres:16-alpine docker://registry.cn-hangzhou.aliyuncs.com/jaridli/postgres:16-alpine
+         skopeo copy docker://docker.io/minio/minio docker://registry.cn-hangzhou.aliyuncs.com/jaridli/minio/minio
