@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/amruthpillai/reactive-resume:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/reactive-resume:latest
+         skopeo copy docker://docker.io/postgres:16-alpine docker://registry.cn-hangzhou.aliyuncs.com/jaridli/postgres:16-alpine
