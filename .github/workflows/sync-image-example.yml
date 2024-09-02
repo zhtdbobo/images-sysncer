@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/nginx:stable-alpine docker://registry.cn-hangzhou.aliyuncs.com/jaridli/nginx:stable-alpine
+         skopeo copy docker://docker.io/m1k1o/neko:firefox docker://registry.cn-hangzhou.aliyuncs.com/jaridli/m1k1o/neko:firefox
