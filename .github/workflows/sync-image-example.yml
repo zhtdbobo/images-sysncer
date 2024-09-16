@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/cinnamon/kotaemon:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/kotaemon:latest
+         skopeo copy docker://docker.io/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/nginx:latest
