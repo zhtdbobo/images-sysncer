@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/imputnet/cobalt:10 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/cobalt:10
+         skopeo copy docker://ghcr.io/containrrr/watchtower docker://registry.cn-hangzhou.aliyuncs.com/jaridli/watchtower
