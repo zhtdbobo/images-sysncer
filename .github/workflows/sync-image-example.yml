@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/containrrr/watchtower docker://registry.cn-hangzhou.aliyuncs.com/jaridli/watchtower
+         skopeo copy docker://docker.io/dockurr/macos docker://registry.cn-hangzhou.aliyuncs.com/jaridli/macos
