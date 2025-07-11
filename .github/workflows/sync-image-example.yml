@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/dockurr/macos docker://registry.cn-hangzhou.aliyuncs.com/jaridli/macos
+         skopeo copy docker://docker.io/wbsu2003/paint-board docker://registry.cn-hangzhou.aliyuncs.com/jaridli/paint-board
