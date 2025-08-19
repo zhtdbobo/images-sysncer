@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/pubuzhixing/drawnix:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/drawnix
+         skopeo copy docker://docker.io/vllm/vllm-openai:gptoss docker://registry.cn-hangzhou.aliyuncs.com/jaridli/vllm-openai:gptoss
