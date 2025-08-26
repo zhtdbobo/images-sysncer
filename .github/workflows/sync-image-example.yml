@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/ubuntu:22.04 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/ubuntu:22.04
+         skopeo copy docker://docker.io/python:3.10.18 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/python:3.10.18
