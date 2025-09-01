@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/dyrnq/open-webui:v0.3.15 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/open-webui:v0.3.15
+         skopeo copy docker://docker.io/arunskurian/ollama-cpu:1.0.0 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/ollama-cpu:1.0.0
