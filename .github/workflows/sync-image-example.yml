@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/arunskurian/ollama-cpu:1.0.0 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/ollama-cpu:1.0.0
+         skopeo copy docker://docker.io/yusiwen/llama.cpp:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/yusiwen/llama.cpp:latest
