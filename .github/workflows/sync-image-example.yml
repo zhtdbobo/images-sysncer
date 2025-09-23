@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/neosmemo/memos:stable docker://registry.cn-hangzhou.aliyuncs.com/jaridli/memos:stable
+         skopeo copy docker://docker.io/yourselfhosted/slash:latest docker://registry.cn-hangzhou.aliyuncs.com/jaridli/slash:latest
