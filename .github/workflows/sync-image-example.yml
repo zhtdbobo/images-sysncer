@@ -22,5 +22,5 @@ jobs:
     - name: Sync Image to Aliyun using Skopeo
       run: |
          skopeo copy \
-         docker://docker.io/yourselfhosted/slash:latest \
-         docker://registry.cn-hangzhou.aliyuncs.com/jaridli/slash:latest
+         docker://docker.io/python/python:3.10-slim \
+         docker://registry.cn-hangzhou.aliyuncs.com/jaridli/python:3.10-slim
