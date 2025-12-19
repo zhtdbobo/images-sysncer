@@ -22,5 +22,5 @@ jobs:
     - name: Sync Image to Aliyun using Skopeo
       run: |
          skopeo copy \
-         docker://docker.io/mysql:5.7.30 \
-         docker://registry.cn-hangzhou.aliyuncs.com/jaridli/mysql:5.7.30
+         docker://docker.io/minio/minio:RELEASE.2023-10-24T04-42-36Z \
+         docker://registry.cn-hangzhou.aliyuncs.com/jaridli/minio:RELEASE.2023-10-24T04-42-36Z
