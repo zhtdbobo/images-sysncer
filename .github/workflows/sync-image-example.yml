@@ -21,6 +21,5 @@ jobs:
 
     - name: Sync Image to Aliyun using Skopeo
       run: |
-         skopeo copy \
-         docker://docker.io/nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04 \
-         docker://registry.cn-hangzhou.aliyuncs.com/jaridli/cuda:12.2.2-cudnn8-devel-ubuntu20.04
+         skopeo copy --override-os linux --override-arch amd64 \
+         docker://docker.io/nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04 docker://registry.cn-hangzhou.aliyuncs.com/jaridli/cuda:12.2.2-cudnn8-devel-ubuntu20.04
